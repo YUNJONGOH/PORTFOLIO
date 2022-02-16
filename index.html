@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>portfolio</title>
+    <link rel="shorcut icon" href="img/job-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script> -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+            <a href="index.html#intro">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div> -->
+        <nav>
+            <ul id="myMenu">
+                <li data-menuanchor="intro"><a href="#intro">Intro</a></li>
+                <li data-menuanchor="profile"><a href="#profile">Profile</a></li>
+                <li data-menuanchor="web"><a href="#web">Web</a></li>
+                <li data-menuanchor="edit"><a href="#edit">Editorial</a></li>
+                <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sns">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section intro">
+            <div class="object">
+                <div class="ob1">
+                    <img src="img/object.png" alt="사각 오브젝트 ">
+                </div>
+                <div class="ob2">
+                    <img src="img/object2.png" alt="원형 오브젝트">
+                </div>
+                <div class="intro_title">
+                    <ul>
+                        <li><img src="img/responsibly.png" alt="책임감있게 일하겠습니다"></li>
+                        <li><img src="img/initiative.png" alt="주도적으로 일하겠습니다"></li>
+                        <li class="center_ani"><img src="img/creativity.png" alt="창의성을 보여드리겠습니다"></li>
+                        <li><img src="img/improvement.png" alt="발전하는 모습을 보여드리겠습니다"></li>
+                        <li><img src="img/please.png" alt="저를 기대해 주세요"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section profile">
+            <h1>Profile</h1>
+            <div class="box">
+                <div class="photo">
+                    <img src="img/face.png" alt="사진">
+                </div>
+                <div class="license">
+                    <h2>career</h2>
+                    <p> 2012/06 ~ 2014/03<br>
+                        <span>수도기계화보병사단 병장 만기전역</span><br>
+                        2014/01 ~ 2017/02<br>
+                        <span>호텔신라 면세점 근무</span><br>
+                        2017/04 ~ 2018/02<br> 
+                        <span>한국패션실용전문학교 테크니컬 패션디자인 과정 수료</span> <br>
+                        2021/09 ~ 2022/02 <br>
+                        <span>연희직업전문학교 UI/UX 웹디자인&웹퍼블리셔 과정 수료</span>
+                    </p>
+                </div>
+                <div class="work">
+                    <p>Name : <span>윤종오</span></p>
+                    <p>Ages : <span>31&nbsp;(1992~)</span></p>
+                    <p>Address : <span>인천광역시</span></p>
+                    <p>Email : <span>dntdjdy777@naver.com</span></p>
+                </div>
+                <div class="skill">
+                    <h2>Skill</h2>
+                    <div class="container">
+                        <p>HTML/CSS</p>
+                        <div class="skill_row">
+                            <div class="skill_view">
+                                <span class="skill_value">80%</span>
+                            </div>
+                        </div>
+                        <p>JAVASCRIPT/JQUERY</p>
+                        <div class="skill_row">
+                            <div class="skill_view">
+                                <span class="skill_value">70%</span>
+                            </div>
+                        </div>
+                        <p>Photoshop</p>
+                        <div class="skill_row">
+                            <div class="skill_view">
+                                <span class="skill_value">80%</span>
+                            </div>
+                        </div>
+                        <p>Illustrator</p>
+                        <div class="skill_row">
+                            <div class="skill_view">
+                                <span class="skill_value">80%</span>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="section web">
+            <h1>Web Portfolio</h1>
+            <div class="box">
+                <!-- Get started -> Add Swiper HTML Layout 에서 복사 -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지,목업은 가로세로 비율 똑같이 하고 가로 긴 이미지 -->
+                                <img src="img/FLOOD.png" alt="플러드 쇼룸 홈페이지">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포트폴리오 설명 -->
+                                <div class="number">
+                                    <p><b>01</b>/03</p>
+                                </div>
+                                <h2>FLOODSHOWROOM 리뉴얼</h2>
+                                <p>
+                                    <span>벤치마킹 : </span>하나금융파인드<br>
+                                    <span>기기 지원 : </span>PC버전<br>
+                                    <span>사용 Skill : </span>HTML5 + CSS3 + JQuery <br>
+                                    <span>사용 plugin : </span>Swiper slide<br>
+                                    <span>제작 기간 : </span>1주일<br>
+                                    <span>콘텐츠 설명 : </span>메인 비주얼을 자동 슬라이드로 제작함,<br>
+                                    PRODUCT 탭메뉴 사용
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="http://floodshowroom.com/" target="_blank">Original</a>
+                                    <a href=" https://yunjongoh.github.io/FLOOD/" target="_blank" >Renewal</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지,목업은 가로세로 비율 똑같이 하고 가로 긴 이미지 -->
+                                <img src="img/Culture.png" alt="문화유산 홈페이지">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포트폴리오 설명 -->
+                                <div class="number">
+                                    <p><b>02</b>/03</p>
+                                </div>
+                                <h2>문화유산 홈페이지 리뉴얼</h2>
+                                <p>
+                                    <span>벤치마킹 : </span>폴렉스존<br>
+                                    <span>기기 지원 : </span>PC버전<br>
+                                    <span>사용 Skill : </span>HTML5 + CSS3 + JQuery <br>
+                                    <span>사용 plugin : </span>Swiper slide<br>
+                                    <span>제작 기간 : </span>1주일<br>
+                                    <span>콘텐츠 설명 : </span>뷰포트를 사용한 반응형 홈페이지,<br>
+                                    swiper slide 플러그인을 사용
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.heritage.go.kr/main/" target="_blank" >Original</a>
+                                    <a href="https://yunjongoh.github.io/Cultural-Heritage/" target="_blank">Renewal</a>
+                                    <a href="#"  onclick="window.open('https://yunjongoh.github.io/Cultural-Heritage', '_blank', 'width=400 height=1000')">Mobile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지,목업은 가로세로 비율 똑같이 하고 가로 긴 이미지 -->
+                                <img src="img/STARBUCKS.png" alt="스타벅스">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포트폴리오 설명 -->
+                                <div class="number">
+                                    <p><b>03</b>/03</p>
+                                </div>
+                                <h2>스타벅스 리뉴얼</h2>
+                                <p>
+                                    <span>벤치마킹 : </span>지산리조트<br>
+                                    <span>기기 지원 : </span>PC버전<br>
+                                    <span>사용 Skill : </span>HTML5 + CSS3 + JQuery <br>
+                                    <span>사용 plugin : </span>Swiper slide<br>
+                                    <span>제작 기간 : </span>1주일<br>
+                                    <span>콘텐츠 설명 : </span>메인 비주얼 아코디언으로 제작하여 표현,<br>
+                                    swiper slide 플러그인을 사용
+                                </p>
+                                <div class="slide_btn">
+                                    <a href="https://www.starbucks.co.kr/index.do" target="_blank">Original</a>
+                                    <a href="https://yunjongoh.github.io/STARBUCKS/" target="_blank" >Renewal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>    
+        </section>
+        <section class="section edit">
+            <h1>Edit Portfolio</h1>
+            <div class="box">
+                <div class="gallery">
+                    <div class="thum_img">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/thum_mockup_out.png" alt="3단 리플렛 목업 바깥쪽 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_mockup_in.png" alt="3단 리플렛 목업 안쪽 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_milk.png" alt="제품표지디자인 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_bookcover.png" alt="북커버 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_font_g.png" alt="폰트 그래픽 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_namecard.png" alt="명함 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_poster.png" alt="포스터 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_lemon.png" alt="레몬주스 일러스트 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_ill.png" alt="타조 일러스트 썸네일">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum_homepage.png" alt="목업 바깥쪽 썸네일">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="big_img">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/mockup_out.png" alt="3단 리플렛 목업 바깥쪽">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/mockup_in.png" alt="3단 리플렛 목업 안쪽">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/milk.png" alt="제품표지디자인">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/bookcover.png" alt="북커버">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/font_g.png" alt="폰트 그래픽">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/namecard.png" alt="명함">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/poster.png" alt="포스터">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/lemon.png" alt="레몬주스">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/ill.png" alt="타조 일러스트">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/homepage.png" alt="목업 바깥쪽">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact">
+            <h1>Contact Me</h1>
+            <div class="box">
+                <form class="gform" method="POST"
+                data-email="example@email.net" action="https://script.google.com/macros/s/AKfycby-oinAlQ8-JTNsUOAoUHf-VreIyeXWckJCeTU/exec">
+                    <div class="form-elements">
+                        <fieldset class="pure-group">
+                            <label for="name">이&nbsp;&nbsp;&nbsp;&nbsp;름&nbsp;: </label>
+                            <input id="name" name="name" placeholder="이름을 입력해 주세요" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="name">제&nbsp;&nbsp;&nbsp;&nbsp;목&nbsp;: </label>
+                            <input id="title" name="title" placeholder="메일 제목을 입력해 주세요" />
+                        </fieldset>
+                
+                        <fieldset class="pure-group">
+                            <label for="message">내&nbsp;&nbsp;&nbsp;&nbsp;용&nbsp;: </label>
+                            <textarea id="message" name="message" rows="10"
+                            placeholder="메일 내용을 입력해 주세요"></textarea>
+                        </fieldset>
+                
+                        <fieldset class="pure-group">
+                            <label for="email">이메일&nbsp;:</label>
+                            <input id="email" name="email" type="email" value=""
+                            required placeholder="이메일 주소를 입력해 주세요"/>
+                        </fieldset>
+                
+                        <button class="button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>보내기</button>
+                    </div>
+                    <div class="pickme">
+                        <div class="pick_img">
+                            <img src="img/mail.png" alt="메일">
+                        </div>
+                    </div>
+                    
+                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    <div class="thankyou_message" style="display:none;">
+                        <h2>메일이 성공적으로 발송 되었습니다. 감사합니다.</h2>
+                    </div>
+                </form>    
+            </div>
+        </section>
+    </div>
+    <footer>
+        ⓒJongOH by 2022.
+    </footer>
+     <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+</body>
+</html>
